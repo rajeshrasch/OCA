@@ -7,17 +7,16 @@ public class printNoUnique {
 		while(i<=100)
 		{
 			
-		if(i%3==0&&i%5==0)
+		if(i%3==0 && i%5==0)
 			System.out.println("buzzfuzz");
 		else if(i%3==0)
 			System.out.println("Buzz");
-		else if(i%5==0)
+		else  if(i%5==0)
 			System.out.println("fuzz");
 		else
-		{
 			System.out.println(i);
 			i++;
-		}
+		
 		
 		}
 
